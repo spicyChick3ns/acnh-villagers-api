@@ -1,12 +1,12 @@
 import { registerEnumType } from "type-graphql";
 
 export enum Hobby { 
-   Education,
-   Fashion,
-   Fitness,
-   Music,
-   Nature,
-   Play
+   Education = "Education",
+   Fashion = "Fashion",
+   Fitness = "Fitness",
+   Music = "Music",
+   Nature = "Nature",
+   Play = "Play"
 }
 
 registerEnumType(Hobby, {
